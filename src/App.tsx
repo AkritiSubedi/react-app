@@ -1,17 +1,14 @@
+import React from 'react';
+import ListGroup from './components/ListGroup';
+  // Make sure to provide the correct path to ListGroup
 
-function ListGroup() {
+function App() {
   return (
-    <>
-      <h1>List</h1>
-      <ul className="list-group">
-        <li className="list-group-item">An item</li>
-        <li className="list-group-item">A second item</li>
-        <li className="list-group-item">A third item</li>
-        <li className="list-group-item">A fourth item</li>
-        <li className="list-group-item">And a fifth one</li>
-    </ul>
-    </>
+    <div>
+      <h1>My App</h1>
+      <ListGroup />
+    </div>
   );
 }
 
-<div>export default App;</div>
+export default App;
