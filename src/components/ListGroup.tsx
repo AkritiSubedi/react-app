@@ -11,7 +11,8 @@ function ListGroup() {
         {items.map((item, index) => (
           <li
             className="list-group-item"
-            key={index}  // Use index as the key
+            // use index as a key
+            key={index}  
             onClick={() => console.log("Clicked")}
           >
             {item}
